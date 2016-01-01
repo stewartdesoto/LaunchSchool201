@@ -1,0 +1,71 @@
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+#login_message {
+  padding: 15px 20px;
+  font: bold 12px Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #339933;
+  border: 2px solid #339933;
+  border-radius: 6px;
+  background: #c0f0c0;
+}
+
+#login_message {
+  position: asolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+body > header {
+  position: relative;
+}
+
+#logout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+  width: 600px;
+  margin: 0 auto;
+}
+
+dt {
+  margin-bottom: 5px;
+}
+
+dd {
+  margin: 0 0 25px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  height: 25px;
+  font: normal 14px Helvetica sans-serif;
+  padding: 3px 10px;
+  box-sizing: border-box solid #cecece;
+
+}
+
+textarea {
+  height: auto;
+  resize: vertical;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
